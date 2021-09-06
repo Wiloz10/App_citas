@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio AppCitas</title>
+</head>
+<body>
+    <h1>Iniciar Sesión</h1>
+    <form action="" method="post">
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email_usuario_login" required>
+        <br>
+        <br>
+        <label for="password">Contraseña: </label>
+        <input type="password" id="password" name="password_usuario_login" required>
+        <br>
+        <br>
+        <button type="submit">Iniciar Sesión</button>
+        <br>
+    </form>
+    <h1>Registro</h1>
+    <form action="" method="POST">
+        <label for="nombre">Nombres: </label>
+        <input type="text" id="nombre" name="nombre_usuario_registro" required>
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email_usuario_registro" required>
+        <br>
+        <br>
+        <br><label for="password">Contraseña: </label>
+        <input type="password" id="password" name="password_usuario_registro" required>
+        <br>
+        <br>
+        <br><label for="password">Confirmar Contraseña: </label>
+        <input type="password" id="confirmar_password" name="confirmar_password_ususario_registro" required>
+        <br>
+        <br>
+        <label for="fecha_nacimiento">Fecha de Nacimiento: </label>
+        <input type="date" id="fecha_nacimiento" name="nacimiento_ususario_registro" required>
+        <br>
+        <br>
+        <label for="franquicia">Orientación Sexual: </label>
+        <select name="orientacion_sexual" id="sexualidad">
+
+            <option value="sin_definir">Sin Definir</option>
+
+            <option value="hombre">Hombre</option>
+
+            <option value="mujer">Mujer</option>
+
+        </select>
+    </form>
+    <br>
+        <button type="submit">Registrarme</button>
+</body>
+</html>
