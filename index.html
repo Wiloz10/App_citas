@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Linkear archivos fuentes locales de css bootstrapp -->
+    <link rel="stylesheet" href="./library/bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 bg">
+
+            </div>
+            <div class="col-md-4 p-5 rounded" id="content-login">
+                <div class="text-end">
+                    <img src="../ejboostrap/resoures/images/secret crush.jpg" width="50" alt="">
+                </div>
+
+                <img src="./resoures/images/secret crush.jpg" alt="">
+
+                <!-- LOGIN -->
+                <form action="#" method="post">
+                    <div class="mb-4">
+                        <label for="email" class="form-label">Correo Electronico: </label>
+                        <input type="emal" class="form-control" required name="email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Contraseña: </label>
+                        <input type="password" class="form-control" required name="password">
+                    </div>
+                    <div class="mb-4">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label">Recordar Contraseña</label>
+                    </div>
+                    <div class="d-grid">
+                        <button type="submit" class="btn btn-primary" id="btn-login">Iniciar Sesión</button>
+                    </div>
+                    <div class="my-3">
+                        <span>¿No tienes una cuenta? <a href="#"> Regístrate </a></span>
+                    </div>
+                </form>
+
+                
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+
+    </div>
+    <script src="./library/bootstrap-5.1.1-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

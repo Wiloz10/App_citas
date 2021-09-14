@@ -1,0 +1,8 @@
+
+/* Pseudoclase para cargar globalmente los colores */
+:root{
+    --var-color-dark :#171717;
+    --var-color-gray : #444444;
+    --var-color-red : #DA0037;
+    --var-color-white : white;
+}

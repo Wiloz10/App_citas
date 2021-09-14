@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma De Pago - Citas</title>
+</head>
+<body>
+    <h1>Forma de Pago</h1>
+    <br>
+    <form action="" method="post">
+        <section>
+            <h2>Informacion de Contacto</h2>
+            <br>
+            <label for="nombre">Nombres y Apellidos</label>
+            <input type="text" id="nombre" name="nombre_ususario_pagos" required>
+            <br>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_ususario_pagos" required>
+            <br>
+            <br>
+            <label for="password">password</label>
+            <input type="password" id="password" name="password_ususario_pagos" required>
+            <br>
+            <br>
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" name="telefono_ususario_pagos" required>
+
+        </section>
+            
+    </section>
+
+    <section>
+
+        <h2>Información de Pago</h2>
+        <br>
+        <label for="franquicia">Tipo de Tarjeta</label>
+
+        <select name="franquicia_tarjeta" id="franquicia">
+
+            <option value="visa">Visa</option>
+
+            <option value="master">Mastercard</option>
+
+            <option value="gold">Visa</option>
+
+        </select>
+        <br>
+        <br>
+        <label for="tarjeta_numero">Número de Tarjeta</label>
+        <input type="number" id="tarjeta_numero" name="tarjeta_usuario">
+        <br>
+        <br>
+        <label for="cvv">CVV</label>
+        <input type="number" id="cvv" name="tarjeta_usuario">
+        <br>
+        <br>
+        <label for="fecha_vencimiento">Fecha de Vencimiento</label>
+        <br>
+        <br>
+        <input type="datetime-local" name="fecha_vencimiento_tarjeta" id="fecha_vencimiento">
+        <br>
+        <br>
+        <label for="cedula_usuario">Imagen de Cédula</label>
+        <input type="file" name="imagen_cedula" id="cedula_usuario" accept="image/*">
+        <br>
+        <br>
+        <button type="submit">Pagar</button>
+
+    </section>
+
+</form>
+
+</body>
+</html>

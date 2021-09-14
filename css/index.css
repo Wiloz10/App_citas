@@ -1,0 +1,40 @@
+
+/* Como requerir las pseudoclase de los colores */
+@import url('colors.css');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    /* Como utilizar las variables de colores */
+    background: var(--var-color-dark);
+    background: radial-gradient(circle, var(--var-color-gray), var(--var-color-dark));
+}
+
+#content-login{
+    background-color: var(--var-color-white);
+}
+
+#content-login img{
+    width: 100%;
+}
+
+#btn-login{
+    background-color: var(--var-color-red);
+    border: 1px solid var(--var-color-red);
+    transition: .4s;
+}
+
+#btn-login:hover{
+    cursor: pointer;
+    background-color: var(--var-color-dark);
+    border: 1px solid var(--var-color-dark);
+    transform: scale(1.1);
+    color: white;
+}
+
+a{
+    color: var(--var-color-red);
+}
